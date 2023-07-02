@@ -1,0 +1,30 @@
+<div [ngSwitch]="type">
+  <div *ngSwitchCase="'email'">
+    <ion-input
+      label="Email"
+      label-placement="floating"
+      fill="outline"
+      placeholder="Email"
+      type="'email'"
+      name="email"
+    ></ion-input>
+  </div>
+  <ng-container *ngSwitchCase="'password'">
+    <ion-input
+      label="password"
+      label-placement="floating"
+      fill="outline"
+      placeholder="Password"
+      type="password"
+    ></ion-input>
+  </ng-container>
+  <ng-container *ngSwitchCase="'text'">
+    <ion-input
+      label="Outline input"
+      label-placement="floating"
+      fill="outline"
+      placeholder=""
+      [type]="'text'"
+    ></ion-input>
+  </ng-container>
+</div>

@@ -1,0 +1,110 @@
+<ion-app>
+  <!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">login</ion-title>
+    </ion-toolbar>
+  </ion-header>
+ 
+</ion-content> -->
+  <ion-header>
+    <!-- <app-header></app-header> -->
+  </ion-header>
+  <ion-content>
+    <div class="ellipse-48"></div>
+
+    <div class="ellipse-47"></div>
+    <div class="ion-login">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>frf</ion-card-title>
+          <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
+        </ion-card-header>
+        <form>
+          <ion-card-content>
+            <app-input [type]="'email'"></app-input>
+          </ion-card-content>
+          <ion-card-content>
+            <app-input [type]="'password'"></app-input>
+          </ion-card-content>
+
+          <ion-card-content>
+            <ion-button expand="block" type="submit" color="secondary">
+              Login
+            </ion-button>
+          </ion-card-content>
+        </form>
+        <ion-item color="white">
+          <div slot="end">
+            <a href="">Forgot Password?</a>
+          </div>
+        </ion-item>
+      </ion-card>
+    </div>
+    <div class="ion-login-create">
+      Already have an account?
+      <a routerDirection="back" routerLink="/login" (click)="loginRoute()">SigbIn</a>
+    </div>
+    <svg
+      class="subtract"
+      width="414"
+      height="219"
+      viewBox="0 0 414 219"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_d_2_195)">
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M414 0.735356C368.155 45.4674 289.205 75.0001 199.5 75.0001C118.923 75.0001 47.0237 51.1719 0 13.9036V219H414V0.735356Z"
+          fill="#3dc2ff"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_d_2_195"
+          x="-114"
+          y="-109.265"
+          width="642"
+          height="446.265"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dy="4" />
+          <feGaussianBlur stdDeviation="57" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0.231373 0 0 0 0 0.34902 0 0 0 0 0.596078 0 0 0 0.27 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_2_195"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_2_195"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+  </ion-content>
+  <router-outlet></router-outlet>
+</ion-app>

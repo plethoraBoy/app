@@ -1,0 +1,100 @@
+.ion-login-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 293rem;
+    height: 100%;
+  }
+  
+  .ion-login {
+    position: relative;
+    z-index: 1;
+    top: 30%;
+  }
+  
+  ion-card {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+  }
+  
+  ion-card-content {
+    //   display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  app-input {
+    width: 100%;
+    max-width: 300px;
+  }
+  .ellipse-48 {
+    background: #3dc2ff;
+    border-radius: 50%;
+    opacity: 0.6;
+    width: 445px;
+    height: 406px;
+    position: absolute;
+    left: -37px;
+    top: -210px;
+  }
+  .frame-450 {
+    background: #0386d0;
+    border-radius: 14px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    width: 69px;
+    height: 72px;
+    position: absolute;
+    left: 170px;
+    top: 781px;
+  }
+  .subtract {
+    position: absolute;
+    left: 0px;
+    top: 730.74px;
+    overflow: visible;
+  }
+  .ellipse-47 {
+    background: #3dc2ff;
+    border-radius: 50%;
+    opacity: 0.3;
+    width: 342px;
+    height: 342px;
+    position: absolute;
+    left: 207px;
+    top: -175px;
+  }
+  ion-content {
+      --overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      position: relative;
+      overflow-y: auto;
+      touch-action: none;
+    }
+    
+    ion-content::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      z-index: -1;
+    }
+    
+  .ion-login-create {
+    position: relative;
+    top: 40%;
+    text-align: center;
+  }
+  
