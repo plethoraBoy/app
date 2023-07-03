@@ -21,13 +21,13 @@
 
     <div class="ellipse-47"></div>
     <div class="ion-login">
-      <ion-card>
+      <ion-card class="">
         <ion-card-header>
           <ion-card-title>LOGIN</ion-card-title>
           <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
         </ion-card-header>
         <form  >
-          <ion-card-content>
+          <ion-card-content >
             <app-input [type]="'email'"></app-input>
           </ion-card-content>
           <ion-card-content>
@@ -35,7 +35,7 @@
           </ion-card-content>
 
           <ion-card-content>
-            <ion-button class="mdc-button" type="submit" color="secondary">
+            <ion-button  class="md" expand="block" type="button" (click)="submit()" color="secondary">
               Login
             </ion-button>
 

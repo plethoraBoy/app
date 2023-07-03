@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
 @Component({
   selector: 'app-header',
@@ -6,6 +6,8 @@ import { IonicModule } from '@ionic/angular';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent  implements OnInit {
+
+  @Output() contentId!:boolean
 
   constructor() { }
 

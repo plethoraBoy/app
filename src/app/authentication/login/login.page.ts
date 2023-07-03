@@ -24,4 +24,7 @@ export class LoginPage implements OnInit {
   register() {
     this.navController.navigateForward(['/register']);
   }
+  submit(){
+    this.router.navigateByUrl('/admin')
+  }
 }
