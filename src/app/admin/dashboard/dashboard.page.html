@@ -1,2 +1,18 @@
-<app-header></app-header>
-<app-sidebar></app-sidebar>
+<ion-app>
+  <app-header></app-header>
+  <app-sidebar></app-sidebar>
+  <ion-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <app-card [title]="'My Card Title'" [subtitle]="'My Card Subtitle'"></app-card>
+        </ion-col>
+        <ion-col>
+          <app-card [title]="'My Card Title'" [subtitle]="'My Card Subtitle'">
+          </app-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+  <app-footer></app-footer>
+</ion-app>

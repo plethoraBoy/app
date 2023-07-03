@@ -8,6 +8,7 @@ import { DashboardPageRoutingModule } from './dashboard-routing.module';
 
 import { DashboardPage } from './dashboard.page';
 import { LayoutModule } from "../../layout/layout.module";
+import { SharedModule } from "../../shared/shared.module";
 
 @NgModule({
     declarations: [DashboardPage],
@@ -16,7 +17,8 @@ import { LayoutModule } from "../../layout/layout.module";
         FormsModule,
         IonicModule,
         DashboardPageRoutingModule,
-        LayoutModule
+        LayoutModule,
+        SharedModule
     ]
 })
 export class DashboardPageModule {}

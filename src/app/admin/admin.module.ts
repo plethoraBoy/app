@@ -5,18 +5,18 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { AdminPageRoutingModule } from './admin-routing.module';
-
-import { AdminPage } from './admin.page';
+import { DashboardPageModule } from './dashboard/dashboard.module';
 import { LayoutModule } from "../layout/layout.module";
 
 @NgModule({
-    declarations: [AdminPage],
+    declarations: [],
     imports: [
         CommonModule,
         FormsModule,
         IonicModule,
         AdminPageRoutingModule,
-        LayoutModule
+        LayoutModule,
+        DashboardPageModule
     ]
 })
 export class AdminPageModule {}

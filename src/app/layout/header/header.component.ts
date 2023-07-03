@@ -7,7 +7,6 @@ import { IonicModule } from '@ionic/angular';
 })
 export class HeaderComponent  implements OnInit {
 
-  @Output() contentId!:boolean
 
   constructor() { }
 

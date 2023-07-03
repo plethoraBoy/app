@@ -1,0 +1,12 @@
+<ion-card [ngClass]="{ 'android-card': isAndroid }">
+  <ion-card-header>
+    <ion-card-title>{{ title }}</ion-card-title>
+    <ion-card-subtitle>{{ subtitle }}</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    {{ content }}
+  </ion-card-content>
+</ion-card>
+
+<!-- Reusable format
+<app-card [title]="'My Card Title'" [subtitle]="'My Card Subtitle'"  [content]='blaablaaa' ></app-card> -->
