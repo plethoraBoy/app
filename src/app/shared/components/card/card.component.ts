@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, ContentChild, Input, OnInit, TemplateRef, ViewChild } from '@angular/core';
 import { Platform } from '@ionic/angular';
 
 @Component({
@@ -10,7 +10,9 @@ export class CardComponent implements OnInit {
 
   @Input() title!: string;
   @Input() subtitle!: string;
-  @Input() content!: string;
+  @Input() content!: any; 
+  @Input() contentTemplate!: TemplateRef<any>
+  // @ViewChild('contentTemplate') contentTemplate!: TemplateRef<any>;
 
   isAndroid!: boolean;
 

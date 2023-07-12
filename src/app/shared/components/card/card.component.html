@@ -4,7 +4,7 @@
     <ion-card-subtitle>{{ subtitle }}</ion-card-subtitle>
   </ion-card-header>
   <ion-card-content>
-    {{ content }}
+    <ng-container *ngTemplateOutlet="contentTemplate"></ng-container>
   </ion-card-content>
 </ion-card>
 
