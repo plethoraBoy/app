@@ -1,0 +1,47 @@
+ion-button[type=button]{
+    background-color: black;
+}
+ion-button[type=submit]{
+    background-color: rgb(235, 0, 0);
+}
+ion-button[type=reset]{
+    background-color: rgb(47, 0, 255);
+}
+
+Copy
+ion-button * {
+  box-sizing: border-box;
+}
+ion-button {
+  background: var(--m-3-sys-light-primary, #6750a4);
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.state-layer {
+  padding: 10px 24px 10px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.label-text {
+  color: var(--m-3-sys-light-on-primary, #ffffff);
+  text-align: center;
+  font: var(--m-3-label-large, 500 14px/20px "Roboto", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
