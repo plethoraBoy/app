@@ -32,7 +32,6 @@
     "@ionic/angular": "^7.1.1",
     "@ionic/angular-server": "^7.1.1",
     "@ionic/core": "^7.1.1",
-    "@material/web": "^1.0.0-pre.12",
     "ionicons": "^7.0.0",
     "rxjs": "^7.8.0",
     "tslib": "^2.3.0",
