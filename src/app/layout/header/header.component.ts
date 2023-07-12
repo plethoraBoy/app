@@ -1,5 +1,4 @@
 import { Component, OnInit, Output } from '@angular/core';
-import { IonicModule } from '@ionic/angular';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -7,7 +6,7 @@ import { IonicModule } from '@ionic/angular';
 })
 export class HeaderComponent  implements OnInit {
 
-
+   menuType = 'reveal'
   constructor() { }
 
   ngOnInit() {}

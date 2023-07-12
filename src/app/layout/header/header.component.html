@@ -4,11 +4,28 @@
       <ion-header>
         <ion-toolbar>
           <ion-buttons slot="start">
-            <ion-menu-button></ion-menu-button>
+            <ion-menu-button>
+              <input id="checkbox" type="checkbox">
+              <label class="toggle" for="checkbox">
+                <div id="bar1" class="bars"></div>
+                <div id="bar2" class="bars"></div>
+                <div id="bar3" class="bars"></div>
+              </label>
+            </ion-menu-button>
           </ion-buttons>
-          <ion-title>menu</ion-title>
+          <ion-title>Menu</ion-title>
+          <ion-buttons slot="end">
+            <app-search></app-search>
+          </ion-buttons>
+          <ion-buttons slot="end">
+            <app-dark-mode-toggle></app-dark-mode-toggle>
+
+          </ion-buttons>
+         
         </ion-toolbar>
       </ion-header>
+      <ion-content class="ion-padding"> Tap the button in the toolbar to open the menu. </ion-content>
     </div>
+
   </ion-toolbar>
 </ion-header>
